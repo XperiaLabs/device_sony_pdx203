@@ -24,8 +24,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-IS_PHONE := true
-
 PRODUCT_NAME := lineage_pdx203
 PRODUCT_DEVICE := pdx203
 PRODUCT_MANUFACTURER := Sony
