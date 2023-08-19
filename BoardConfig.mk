@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from sony sm8250-common
--include device/sony/sm8250-common/BoardConfigCommon.mk
+# Inherit from sony edo
+-include device/sony/edo/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx203
 
@@ -24,7 +24,7 @@ TARGET_SCREEN_DENSITY := 420
 
 BOARD_KERNEL_CMDLINE += buildproduct=pdx203
 
-TARGET_KERNEL_SOURCE := kernel/sony/sm8250
+TARGET_KERNEL_SOURCE := kernel/sony/edo
 TARGET_KERNEL_CONFIG := pdx203_defconfig
 TARGET_KERNEL_CONFIG += vendor/debugfs.config
 

@@ -10,7 +10,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/sony/sm8250-common',
+    'vendor/sony/edo',
     'hardware/qcom-caf/sm8250',
     'hardware/qcom-caf/wlan',
     'hardware/sony',
@@ -28,6 +28,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8250-common', module.vendor
+        module, 'edo', module.vendor
     )
     utils.run()
