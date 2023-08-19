@@ -22,8 +22,8 @@
 # definition file).
 #
 
-# Inherit from sony sm8250-common
-$(call inherit-product, device/sony/sm8250-common/edo.mk)
+# Inherit from sony edo
+$(call inherit-product, device/sony/edo/edo.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
