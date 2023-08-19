@@ -16,7 +16,7 @@ set -e
 
 # Required!
 export DEVICE=pdx203
-export DEVICE_COMMON=sm8250-common
+export DEVICE_COMMON=edo
 export VENDOR=sony
 
 export DEVICE_BRINGUP_YEAR=2020
