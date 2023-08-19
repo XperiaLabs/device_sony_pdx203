@@ -10,7 +10,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/sony/sm8250-common',
+    'vendor/sony/edo',
     'hardware/qcom-caf/sm8250',
     'hardware/qcom-caf/wlan',
     'hardware/sony',
